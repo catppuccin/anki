@@ -37,19 +37,19 @@
 	<summary>Plugins used in screenshot:</summary>
 	<ul>
 		<li>Ankicord - Discord RPC.</li>
-		<li>Button Colours Good Again - Change button colors from black to Catppuccin. </li>
-		<li>Change Interface Font - Change font to whatever. (Inter for the screenshots) </li>
+		<li>Button Colours Good Again - Change button colors. </li>
+		<li>Change Interface Font - Change interface font. (**Inter** for the screenshots) </li>
 		<li>Clickable Tags v20 - Make tags clickable.<li>
         <li>CrowdAnki - Use decks hosted on the web.</li>
-        <li>Custom Background Image and Gear Icon - Change the background image of Anki. (disabled in </li>screenshot)
-        <li>Editor Live Preview - Fixes a bug with the card editor live preview.</li>
-        <li>Image Occlusion Enchanced for Anki 21 - Allows you to highlight part of an image and turn it into a question.</li>
+        <li>Custom Background Image and Gear Icon - Change the background image of Anki. (disabled in screenshot)</li>
+        <li>Editor Live Preview - Generates a live preview of the card while in the editor.</li>
+        <li>Image Occlusion Enchanced for Anki 21 - Converts images into questions using labels.</li>
         <li>More Decks Stats and Time Left - Advanced statistics.</li>
         <li>Quizlet to Anki 21 Importer with audio support - Import Quizlets and the TTS.</li>
-        <li>ReColor - Theming.</li>
-        <li>Review Heatmap - Show a Github-like heatmap of review.</li>
-        <li>True Retention - Show how much you actually understand something.</li>
-        <li>Wrapper meta-addons - Not exactly sure what this does.</li>
+        <li>ReColor - Theming the application.</li>
+        <li>Review Heatmap - Show a Github-like heatmap of cards reviewed per day.</li>
+        <li>True Retention - Shows retention rate for mature cards.</li>
+        <li>Wrapper meta-addons - Adds custom buttons for adding wrapper tags in the editor.</li>
 	</ul>
 </details>
 
