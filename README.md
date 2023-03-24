@@ -56,6 +56,7 @@
 ## 💝 Thanks to
 
 - [BlueFalconHD](https://github.com/bluefalconhd)
+- [AnubisNekhet](https://github.com/AnubisNekhet)
 
 &nbsp;
 
