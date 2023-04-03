@@ -17,6 +17,8 @@
 
 ## ⚙️ Usage
 
+If the theme doesn't work properly try enabling/disabling dark mode in Anki's preferences, darker themes won't render properly in light mode
+
 ### Method 1
 1. Install the [ReColor add-on](https://ankiweb.net/shared/info/688199788) for Anki
 	- Copy the code on the webpage.
