@@ -46,8 +46,8 @@ whiskers:
         ],
         "BORDER_SUBTLE": [
             "Border (subtle)",
-            "#{{ palette.surface0.hex }}",
-            "#{{ palette.surface0.hex }}",
+            "#{{ palette.base.hex }}",
+            "#{{ palette.base.hex }}",
             "--border-subtle"
         ],
         "BUTTON_BG": [

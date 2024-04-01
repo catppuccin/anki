@@ -38,8 +38,8 @@
         ],
         "BORDER_SUBTLE": [
             "Border (subtle)",
-            "#414559",
-            "#414559",
+            "#303446",
+            "#303446",
             "--border-subtle"
         ],
         "BUTTON_BG": [
