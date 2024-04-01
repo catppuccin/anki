@@ -71,26 +71,26 @@
         ],
         "BUTTON_PRIMARY_BG": [
             "Button Primary Bg",
-            "#2f67e1",
-            "#2f67e1",
+            "#89b4fa",
+            "#89b4fa",
             "--button-primary-bg"
         ],
         "BUTTON_PRIMARY_DISABLED": [
             "Button Primary Disabled",
-            "#4484ed",
-            "#4484ed",
+            "#9dc1fb",
+            "#9dc1fb",
             "--button-primary-disabled"
         ],
         "BUTTON_PRIMARY_GRADIENT_END": [
             "Button Primary Gradient End",
-            "#2544a8",
-            "#2544a8",
+            "#6da3f9",
+            "#6da3f9",
             "--button-primary-gradient-end"
         ],
         "BUTTON_PRIMARY_GRADIENT_START": [
             "Button Primary Gradient Start",
-            "#2f67e1",
-            "#2f67e1",
+            "#89b4fa",
+            "#89b4fa",
             "--button-primary-gradient-start"
         ],
         "CANVAS": [
@@ -131,8 +131,8 @@
         ],
         "FG_DISABLED": [
             "Text (disabled)",
-            "#a6adc6",
-            "#a6adc6",
+            "#a6adc8",
+            "#a6adc8",
             "--fg-disabled"
         ],
         "FG_FAINT": [
@@ -191,8 +191,8 @@
         ],
         "FLAG_7": [
             "Flag 7",
-            "#c9cbff",
-            "#c9cbff",
+            "#b4befe",
+            "#b4befe",
             "--flag-7"
         ],
         "HIGHLIGHT_BG": [
@@ -275,14 +275,14 @@
         ],
         "STATE_MARKED": [
             "Marked",
-            "#FAE3B0",
-            "#FAE3B0",
+            "#f9e2af",
+            "#f9e2af",
             "--state-marked"
         ],
         "STATE_NEW": [
             "New",
-            "#96cdfb",
-            "#96cdfb",
+            "#89dceb",
+            "#89dceb",
             "--state-new"
         ],
         "STATE_REVIEW": [
