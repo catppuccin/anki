@@ -1,63 +1,71 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "themes/{{flavor.identifier}}.json"
+---
+{%- set palette = flavor.colors -%}
 {
     "colors": {
         "ACCENT_CARD": [
             "Card mode",
-            "#89b4fa",
-            "#89b4fa",
+            "#{{ palette.blue.hex }}",
+            "#{{ palette.blue.hex }}",
             "--accent-card"
         ],
         "ACCENT_DANGER": [
             "Danger",
-            "#f38ba8",
-            "#f38ba8",
+            "#{{ palette.red.hex }}",
+            "#{{ palette.red.hex }}",
             "--accent-danger"
         ],
         "ACCENT_NOTE": [
             "Note mode",
-            "#a6e3a1",
-            "#a6e3a1",
+            "#{{ palette.green.hex }}",
+            "#{{ palette.green.hex }}",
             "--accent-note"
         ],
         "BORDER": [
             "Border",
-            "#45475a",
-            "#45475a",
+            "#{{ palette.surface1.hex }}",
+            "#{{ palette.surface1.hex }}",
             "--border"
         ],
         "BORDER_FOCUS": [
             "Border (focused input)",
-            "#f5e0dc",
-            "#f5e0dc",
+            "#{{ palette.rosewater.hex }}",
+            "#{{ palette.rosewater.hex }}",
             "--border-focus"
         ],
         "BORDER_STRONG": [
             "Border (strong)",
-            "#585b70",
-            "#585b70",
+            "#{{ palette.surface2.hex }}",
+            "#{{ palette.surface2.hex }}",
             "--border-strong"
         ],
         "BORDER_SUBTLE": [
             "Border (subtle)",
-            "#1e1e2e",
-            "#1e1e2e",
+            "#{{ palette.base.hex }}",
+            "#{{ palette.base.hex }}",
             "--border-subtle"
         ],
         "BUTTON_BG": [
             "Button background",
-            "#313244",
-            "#313244",
+            "#{{ palette.surface0.hex }}",
+            "#{{ palette.surface0.hex }}",
             "--button-bg"
         ],
         "BUTTON_DISABLED": [
             "Button background (disabled)",
-            "#313244",
-            "#313244",
+            "#{{ palette.surface0.hex }}",
+            "#{{ palette.surface0.hex }}",
             "--button-disabled"
         ],
         "BUTTON_HOVER": [
             "Button background (hover)",
-            "#45475a",
-            "#45475a",
+            "#{{ palette.surface1.hex }}",
+            "#{{ palette.surface1.hex }}",
             [
                 "--button-gradient-start",
                 "--button-gradient-end"
@@ -65,236 +73,236 @@
         ],
         "BUTTON_HOVER_BORDER": [
             "Button border (hover)",
-            "#585b70",
-            "#585b70",
+            "#{{ palette.surface2.hex }}",
+            "#{{ palette.surface2.hex }}",
             "--button-hover-border"
         ],
         "BUTTON_PRIMARY_BG": [
             "Button Primary Bg",
-            "#89b4fa",
-            "#89b4fa",
+            "#{{ palette.blue.hex }}",
+            "#{{ palette.blue.hex }}",
             "--button-primary-bg"
         ],
         "BUTTON_PRIMARY_DISABLED": [
             "Button Primary Disabled",
-            "#9dc1fb",
-            "#9dc1fb",
+            "#{{ palette.blue | mod(lightness=80) | get(key="hex") }}",
+            "#{{ palette.blue | mod(lightness=80) | get(key="hex") }}",
             "--button-primary-disabled"
         ],
         "BUTTON_PRIMARY_GRADIENT_END": [
             "Button Primary Gradient End",
-            "#6da3f9",
-            "#6da3f9",
+            "#{{ palette.blue | mod(lightness=70) | get(key="hex") }}",
+            "#{{ palette.blue | mod(lightness=70) | get(key="hex") }}",
             "--button-primary-gradient-end"
         ],
         "BUTTON_PRIMARY_GRADIENT_START": [
             "Button Primary Gradient Start",
-            "#89b4fa",
-            "#89b4fa",
+            "#{{ palette.blue.hex }}",
+            "#{{ palette.blue.hex }}",
             "--button-primary-gradient-start"
         ],
         "CANVAS": [
             "Background",
-            "#1e1e2e",
-            "#1e1e2e",
+            "#{{ palette.base.hex }}",
+            "#{{ palette.base.hex }}",
             "--canvas"
         ],
         "CANVAS_CODE": [
             "Code editor background",
-            "#181825",
-            "#181825",
+            "#{{ palette.mantle.hex }}",
+            "#{{ palette.mantle.hex }}",
             "--canvas-code"
         ],
         "CANVAS_ELEVATED": [
             "Review",
-            "#181825",
-            "#181825",
+            "#{{ palette.mantle.hex }}",
+            "#{{ palette.mantle.hex }}",
             "--canvas-elevated"
         ],
         "CANVAS_INSET": [
             "Background (inset)",
-            "#11111b",
-            "#11111b",
+            "#{{ palette.crust.hex }}",
+            "#{{ palette.crust.hex }}",
             "--canvas-inset"
         ],
         "CANVAS_OVERLAY": [
             "Background (menu & tooltip)",
-            "#181825",
-            "#181825",
+            "#{{ palette.mantle.hex }}",
+            "#{{ palette.mantle.hex }}",
             "--canvas-overlay"
         ],
         "FG": [
             "Text",
-            "#cdd6f4",
-            "#cdd6f4",
+            "#{{ palette.text.hex }}",
+            "#{{ palette.text.hex }}",
             "--fg"
         ],
         "FG_DISABLED": [
             "Text (disabled)",
-            "#a6adc8",
-            "#a6adc8",
+            "#{{ palette.subtext0.hex }}",
+            "#{{ palette.subtext0.hex }}",
             "--fg-disabled"
         ],
         "FG_FAINT": [
             "Text (faint)",
-            "#9399b2",
-            "#9399b2",
+            "#{{ palette.overlay2.hex }}",
+            "#{{ palette.overlay2.hex }}",
             "--fg-faint"
         ],
         "FG_LINK": [
             "Text (link)",
-            "#f5e0dc",
-            "#f5e0dc",
+            "#{{ palette.rosewater.hex }}",
+            "#{{ palette.rosewater.hex }}",
             "--fg-link"
         ],
         "FG_SUBTLE": [
             "Text (subtle)",
-            "#bac2de",
-            "#bac2de",
+            "#{{ palette.subtext1.hex }}",
+            "#{{ palette.subtext1.hex }}",
             "--fg-subtle"
         ],
         "FLAG_1": [
             "Flag 1",
-            "#f38ba8",
-            "#f38ba8",
+            "#{{ palette.red.hex }}",
+            "#{{ palette.red.hex }}",
             "--flag-1"
         ],
         "FLAG_2": [
             "Flag 2",
-            "#fab387",
-            "#fab387",
+            "#{{ palette.peach.hex }}",
+            "#{{ palette.peach.hex }}",
             "--flag-2"
         ],
         "FLAG_3": [
             "Flag 3",
-            "#a6e3a1",
-            "#a6e3a1",
+            "#{{ palette.green.hex }}",
+            "#{{ palette.green.hex }}",
             "--flag-3"
         ],
         "FLAG_4": [
             "Flag 4",
-            "#89b4fa",
-            "#89b4fa",
+            "#{{ palette.blue.hex }}",
+            "#{{ palette.blue.hex }}",
             "--flag-4"
         ],
         "FLAG_5": [
             "Flag 5",
-            "#cba6f7",
-            "#cba6f7",
+            "#{{ palette.mauve.hex }}",
+            "#{{ palette.mauve.hex }}",
             "--flag-5"
         ],
         "FLAG_6": [
             "Flag 6",
-            "#89dceb",
-            "#89dceb",
+            "#{{ palette.sky.hex }}",
+            "#{{ palette.sky.hex }}",
             "--flag-6"
         ],
         "FLAG_7": [
             "Flag 7",
-            "#b4befe",
-            "#b4befe",
+            "#{{ palette.lavender.hex }}",
+            "#{{ palette.lavender.hex }}",
             "--flag-7"
         ],
         "HIGHLIGHT_BG": [
             "Highlight background",
-            "#313244",
-            "#313244",
+            "#{{ palette.surface0.hex }}",
+            "#{{ palette.surface0.hex }}",
             "--highlight-bg"
         ],
         "HIGHLIGHT_FG": [
             "Highlight text",
-            "#f5e0dc",
-            "#f5e0dc",
+            "#{{ palette.rosewater.hex }}",
+            "#{{ palette.rosewater.hex }}",
             "--highlight-fg"
         ],
         "SCROLLBAR_BG": [
             "Scrollbar background",
-            "#1e1e2e",
-            "#1e1e2e",
+            "#{{ palette.base.hex }}",
+            "#{{ palette.base.hex }}",
             "--scrollbar-bg"
         ],
         "SCROLLBAR_BG_ACTIVE": [
             "Scrollbar background (active)",
-            "#313244",
-            "#313244",
+            "#{{ palette.surface0.hex }}",
+            "#{{ palette.surface0.hex }}",
             "--scrollbar-bg-active"
         ],
         "SCROLLBAR_BG_HOVER": [
             "Scrollbar background (hover)",
-            "#1e1e2e",
-            "#1e1e2e",
+            "#{{ palette.base.hex }}",
+            "#{{ palette.base.hex }}",
             "--scrollbar-bg-hover"
         ],
         "SELECTED_BG": [
             "Selected Bg",
-            "#313244",
-            "#313244",
+            "#{{ palette.surface0.hex }}",
+            "#{{ palette.surface0.hex }}",
             "--selected-bg"
         ],
         "SELECTED_FG": [
             "Selected Fg",
-            "#f5e0dc",
-            "#f5e0dc",
+            "#{{ palette.rosewater.hex }}",
+            "#{{ palette.rosewater.hex }}",
             "--selected-fg"
         ],
         "SHADOW": [
             "Shadow",
-            "#1e1e2e",
-            "#1e1e2e",
+            "#{{ palette.base.hex }}",
+            "#{{ palette.base.hex }}",
             "--shadow"
         ],
         "SHADOW_FOCUS": [
             "Shadow (focused input)",
-            "#fab387",
-            "#fab387",
+            "#{{ palette.peach.hex }}",
+            "#{{ palette.peach.hex }}",
             "--shadow-focus"
         ],
         "SHADOW_INSET": [
             "Shadow (inset)",
-            "#11111b",
-            "#11111b",
+            "#{{ palette.crust.hex }}",
+            "#{{ palette.crust.hex }}",
             "--shadow-inset"
         ],
         "SHADOW_SUBTLE": [
             "Shadow (subtle)",
-            "#181825",
-            "#181825",
+            "#{{ palette.mantle.hex }}",
+            "#{{ palette.mantle.hex }}",
             "--shadow-subtle"
         ],
         "STATE_BURIED": [
             "Buried",
-            "#7f849c",
-            "#7f849c",
+            "#{{ palette.overlay1.hex }}",
+            "#{{ palette.overlay1.hex }}",
             "--state-buried"
         ],
         "STATE_LEARN": [
             "Learn",
-            "#f38ba8",
-            "#f38ba8",
+            "#{{ palette.red.hex }}",
+            "#{{ palette.red.hex }}",
             "--state-learn"
         ],
         "STATE_MARKED": [
             "Marked",
-            "#f9e2af",
-            "#f9e2af",
+            "#{{ palette.yellow.hex }}",
+            "#{{ palette.yellow.hex }}",
             "--state-marked"
         ],
         "STATE_NEW": [
             "New",
-            "#89dceb",
-            "#89dceb",
+            "#{{ palette.sky.hex }}",
+            "#{{ palette.sky.hex }}",
             "--state-new"
         ],
         "STATE_REVIEW": [
             "Review",
-            "#a6e3a1",
-            "#a6e3a1",
+            "#{{ palette.green.hex }}",
+            "#{{ palette.green.hex }}",
             "--state-review"
         ],
         "STATE_SUSPENDED": [
             "Suspended",
-            "#a6adc8",
-            "#a6adc8",
+            "#{{ palette.subtext0.hex }}",
+            "#{{ palette.subtext0.hex }}",
             "--state-suspended"
         ]
     },

@@ -38,8 +38,8 @@
         ],
         "BORDER_SUBTLE": [
             "Border (subtle)",
-            "#363a4f",
-            "#363a4f",
+            "#24273a",
+            "#24273a",
             "--border-subtle"
         ],
         "BUTTON_BG": [
@@ -71,26 +71,26 @@
         ],
         "BUTTON_PRIMARY_BG": [
             "Button Primary Bg",
-            "#2f67e1",
-            "#2f67e1",
+            "#8aadf4",
+            "#8aadf4",
             "--button-primary-bg"
         ],
         "BUTTON_PRIMARY_DISABLED": [
             "Button Primary Disabled",
-            "#4484ed",
-            "#4484ed",
+            "#a2bef6",
+            "#a2bef6",
             "--button-primary-disabled"
         ],
         "BUTTON_PRIMARY_GRADIENT_END": [
             "Button Primary Gradient End",
-            "#2544a8",
-            "#2544a8",
+            "#749ef2",
+            "#749ef2",
             "--button-primary-gradient-end"
         ],
         "BUTTON_PRIMARY_GRADIENT_START": [
             "Button Primary Gradient Start",
-            "#2f67e1",
-            "#2f67e1",
+            "#8aadf4",
+            "#8aadf4",
             "--button-primary-gradient-start"
         ],
         "CANVAS": [
@@ -131,8 +131,8 @@
         ],
         "FG_DISABLED": [
             "Text (disabled)",
-            "#a6adc6",
-            "#a6adc6",
+            "#a5adcb",
+            "#a5adcb",
             "--fg-disabled"
         ],
         "FG_FAINT": [
@@ -281,8 +281,8 @@
         ],
         "STATE_NEW": [
             "New",
-            "#8aadf4",
-            "#8aadf4",
+            "#91d7e3",
+            "#91d7e3",
             "--state-new"
         ],
         "STATE_REVIEW": [
