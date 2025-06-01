@@ -18,7 +18,7 @@
 ## ⚙️ Usage
 
 > [!NOTE]
-> The Catppuccin theme is now integrated in the [ReColor add-on](https://ankiweb.net/shared/info/688199788)
+> The Catppuccin theme is now included by default in the [ReColor add-on](https://ankiweb.net/shared/info/688199788).
 
 ### Method 1
 1. Install the [ReColor add-on](https://ankiweb.net/shared/info/688199788) for Anki
