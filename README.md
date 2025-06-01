@@ -17,15 +17,25 @@
 
 ## ⚙️ Usage
 
-Now it's included in the [ReColor add-on](https://ankiweb.net/shared/info/688199788)!
+> [!NOTE]
+> The Catppuccin theme is now integrated in the [ReColor add-on](https://ankiweb.net/shared/info/688199788)
 
+### Method 1
 1. Install the [ReColor add-on](https://ankiweb.net/shared/info/688199788) for Anki
-    - Copy the code on the webpage.
-    - In Anki, go to Tools > Addons > Get Addons and paste the code
-3. Go into Tools > Addons > then double click on ReColor
-4. Go into Themes and choose:
-    - (light) Catppuccin Latte
-    - (dark) Catppuccin Frappe, Macchiato, or Mocha
+	- Copy the code on the webpage.
+	- In Anki, go to Tools > Addons > Get Addons and paste the code
+2. Go into Tools > Addons > ReColor > Config > Advanced
+3. Find the scheme you want [here](https://github.com/catppuccin/anki/tree/main/themes/) and copy the entire contents.
+4. Paste them into the ReColor advanced config menu.
+
+### Method 2
+1. Clone this repository using `git clone https://github.com/catppuccin/anki`
+2. Install the [ReColor add-on](https://ankiweb.net/shared/info/688199788) for Anki
+	- Copy the code on the webpage.
+	- In Anki, go to Tools > Addons > Get Addons and paste the code
+3. Go into Tools > Addons > ReColor > View Files
+4. Copy the themes directory from the anki repository into the ReColor files.
+5. Go into Tools > Addons > ReColor > Config > Themes and choose latte, frappe, macchiato, or mocha
 <details>
 	<summary>Plugins used in screenshot:</summary>
 	<ul>
