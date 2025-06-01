@@ -20,12 +20,12 @@
 Now it's included in the [ReColor add-on](https://ankiweb.net/shared/info/688199788)!
 
 1. Install the [ReColor add-on](https://ankiweb.net/shared/info/688199788) for Anki
-  - Copy the code on the webpage.
-	- In Anki, go to Tools > Addons > Get Addons and paste the code
-2. Go into Tools > Addons > then double click on ReColor
-3. Go into Themes and choose:
-  - (light) Catppuccin Latte
-  - (dark) Catppuccin Frappe, Macchiato, or Mocha
+    - Copy the code on the webpage.
+    - In Anki, go to Tools > Addons > Get Addons and paste the code
+3. Go into Tools > Addons > then double click on ReColor
+4. Go into Themes and choose:
+    - (light) Catppuccin Latte
+    - (dark) Catppuccin Frappe, Macchiato, or Mocha
 <details>
 	<summary>Plugins used in screenshot:</summary>
 	<ul>
